@@ -20,4 +20,4 @@ Run with electron.
 
 ## Server
 - `node server/index.js`
-Server will start on port 3000 and will connect to the server url specified in `./server/index.js`.
+Server will start on port url and db specified in `./server/index.js`.
