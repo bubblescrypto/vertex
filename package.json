@@ -1,0 +1,40 @@
+{
+  "name": "vertex",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@bubbles-github:bubblescrypto/vertex.git",
+  "author": "bubblescrypto <bubblescrypto2018@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --colors --mode production",
+    "electron": "electron ./electron.js",
+    "jsfmt": "standard --fix",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "moment": "^2.22.2",
+    "mongorito": "^3.0.4",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-hot-loader": "^4.3.5",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "electron": "^2.0.8",
+    "electron-builder": "^20.28.3",
+    "standard": "^12.0.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
+  }
+}
